@@ -28,18 +28,18 @@
 
 <br>
 
-**Table 4: Performance Analysis**
-| Method | DD | DD_noisy | MUTAG | MUTAG_noisy |
-| :--- | :--- | :--- | :--- | :--- |
-| FedAvg | $81.41 \pm 2.45$ | $72.93 \pm 3.86$ | $83.51 \pm 4.12$ | $60.83 \pm 3.61$ |
-| FedAGHN | $83.68 \pm 1.15$ | $76.41 \pm 2.58$ | $80.12 \pm 3.25$ | $65.45 \pm 3.12$ |
-| **GraphP-FL (Ours)** | **$74.66 \pm 1.85$** | **$79.32 \pm 1.65$** | **$80.00 \pm 3.05$** | **$84.83 \pm 2.98$** |
-
-<br>
-
-**Table 5: Hyperparameter Sensitivity Analysis**
+**Table 4: Hyperparameter Sensitivity Analysis**
 | Setting | DD | MUTAG |
 | :--- | :--- | :--- |
 | $\lambda_1 = 0.01$ | $76.43 \pm 1.62$ | $82.83 \pm 2.85$ |
 | $\lambda_1 = 0.1$ | $74.66 \pm 1.85$ | $80.00 \pm 3.05$ |
 | $\lambda_1 = 0.5$ | $71.32 \pm 2.24$ | $78.03 \pm 3.18$ |
+
+<br>
+
+**Table 5: Performance Analysis**
+| Method | DD | DD_noisy | MUTAG | MUTAG_noisy |
+| :--- | :--- | :--- | :--- | :--- |
+| FedAvg | $81.41 \pm 2.45$ | $72.93 \pm 3.86$ | $83.51 \pm 4.12$ | $60.83 \pm 3.61$ |
+| FedAGHN | $83.68 \pm 1.15$ | $76.41 \pm 2.58$ | $80.12 \pm 3.25$ | $65.45 \pm 3.12$ |
+| **GraphP-FL (Ours)** | **$74.66 \pm 1.85$** | **$79.32 \pm 1.65$** | **$80.00 \pm 3.05$** | **$84.83 \pm 2.98$** |
