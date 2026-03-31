@@ -1,4 +1,5 @@
 **Table 1: Fisher Overhead Analysis**
+
 | Method | GPU Memory Usage | Time per Round |
 | :--- | :--- | :--- |
 | FedAvg + VIB + MSFF + SSL | 41.52MB | 22.32s |
@@ -7,17 +8,19 @@
 <br>
 
 **Table 2: Model Performance**
+
 | Model | DAPP | COLLAB | NCI1 |
 | :--- | :--- | :--- | :--- |
 | Ours + GCN | $91.62 \pm 0.65$ | $81.98 \pm 0.72$ | $91.88 \pm 0.58$ |
 | Ours + GAT | $87.42 \pm 0.88$ | $84.49 \pm 0.91$ | $87.48 \pm 0.76$ |
 | Ours + GraphSAGE | $92.54 \pm 0.71$ | $81.51 \pm 0.68$ | $88.80 \pm 0.82$ |
 | Ours + Graph Transformer | $94.42 \pm 0.54$ | $81.98 \pm 0.82$ | $88.12 \pm 0.63$ |
-| **GraphP-FL (Ours)** | **$96.81 \pm 0.21$** | **$87.56 \pm 0.35$** | **$92.55 \pm 0.42$** |
+| **GraphP-FL (Ours)** | **96.81 $\pm$ 0.21** | **87.56 $\pm$ 0.35** | **92.55 $\pm$ 0.42** |
 
 <br>
 
 **Table 3: Model Overhead**
+
 | Model | DAPP (GPU Memory / Time) | COLLAB (GPU Memory / Time) | NCI1 (GPU Memory / Time) |
 | :--- | :--- | :--- | :--- |
 | Ours + GCN | 35.73MB / 28.30s | 350.08MB / 7.73s | 37.82MB / 3.84s |
@@ -29,6 +32,7 @@
 <br>
 
 **Table 4: Hyperparameter Sensitivity Analysis**
+
 | Setting | DD | MUTAG |
 | :--- | :--- | :--- |
 | $\lambda_1 = 0.01$ | $76.43 \pm 1.62$ | $82.83 \pm 2.85$ |
@@ -38,8 +42,9 @@
 <br>
 
 **Table 5: Performance Analysis**
+
 | Method | DD | DD_noisy | MUTAG | MUTAG_noisy |
 | :--- | :--- | :--- | :--- | :--- |
 | FedAvg | $81.41 \pm 2.45$ | $72.93 \pm 3.86$ | $83.51 \pm 4.12$ | $60.83 \pm 3.61$ |
 | FedAGHN | $83.68 \pm 1.15$ | $76.41 \pm 2.58$ | $80.12 \pm 3.25$ | $65.45 \pm 3.12$ |
-| **GraphP-FL (Ours)** | **$74.66 \pm 1.85$** | **$79.32 \pm 1.65$** | **$80.00 \pm 3.05$** | **$84.83 \pm 2.98$** |
+| **GraphP-FL (Ours)** | **74.66 $\pm$ 1.85** | **79.32 $\pm$ 1.65** | **80.00 $\pm$ 3.05** | **84.83 $\pm$ 2.98** |
